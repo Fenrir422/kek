@@ -1,0 +1,12 @@
+
+
+.randomdiv{
+	background: url(testimage/background/fon.png);
+	background-repeat: no-repeat;
+	background-color: #eeeeee;
+	background-position: center;
+
+}
+.innerdiv{
+	height: 1000px;
+}

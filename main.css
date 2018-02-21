@@ -1,0 +1,810 @@
+body{
+	font-family: "Bliss Pro";
+}
+	
+.background3{
+  	background: url(images/fon3.png);
+  	width: 1920px;
+  	height: 7569px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin:auto;
+	z-index: 1;
+  }
+  .background2 {
+
+	height: 966px;
+	width: 1920px;
+	background: url(images/fon2.png);
+	background-position: top center;
+	z-index: 10;
+	margin:auto;
+	margin-top:-101px;
+}
+ .row{
+ 	height: 556px;
+ }
+
+.background{
+	height:782px;
+	background: url(images/fon.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: relative;
+	z-index: 12;
+}
+.header{
+	height: 83px;
+	padding-top:9px;
+}
+.header-title {
+    padding-top: 18px;
+    font-size: 18px;
+}
+.header-title-line {
+
+	display: block;
+}
+.header-title-line__first-line {
+	text-transform: uppercase;
+    margin-bottom: -6px;
+}
+.header-menu ul{
+	font-family: "Bliss Pro";
+	padding: 0;
+    margin-top: 30px;
+	list-style: none;
+}
+.header-menu ul li{
+	margin-left: 48px;
+	display: inline-block;
+}
+.header-menu ul li a{
+	border-bottom: 2px dashed black;
+	color:black;
+
+}
+.header-numb{
+	color:black;
+	margin-left: -42px;
+	margin-top:-3px;
+
+}
+.header-numb a{
+	color:black;
+	font-size: 21px;
+	font-weight: bold;
+}
+.header-numb a span{
+	font-size:30px;
+}
+
+.body{
+	
+	width: 1170px;
+	margin: 0 auto;
+	
+}
+.logo {
+	width: 77px;
+  	height: 83px;
+  	margin:auto;
+  }
+
+.orange-banner {
+	background: url(images/orange.png);
+	background-position: center;
+	height: 138px;
+	width: 100%;
+	background-repeat: no-repeat;
+	margin:auto;
+	text-align:center;
+	font-size: 35px;
+	display: table;
+	margin-top:2.5%;
+}
+
+.orange-banner .orange-banner-text{
+	color: rgb(255, 255, 255);
+	text-align:center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.orange-banner .orange-banner-text span {
+	display: inline-block;
+	width: 70%;
+}
+
+.forma{
+
+	border-radius: 5px;
+  	background-color: #ffffff;
+  	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.05);
+  	width: 360px;
+  	height: 340px;
+	padding-top: 27px;
+	margin-left: 17px;
+	margin-top: 66px;
+
+}
+.forma{
+	
+}
+.forma .forma-header{
+	text-align: center;
+	margin: auto;
+	width: 55%;
+	margin-bottom: 30px;
+}
+.forma .forma-header span{
+	font-family: "Bliss Pro";
+	text-decoration-style: bold;
+	margin:left 10%;
+	font-size: 1.3em;
+	line-height: 1px;
+}
+
+.forma-phone{
+	position: relative;
+}
+
+.forma-phone label{
+	margin-left: 30px;
+	margin-bottom: 12px;
+	font-size: 14px;
+  	font-family: "Bliss Pro";
+  	color: rgb(33, 33, 33);
+  	font-weight: bold;
+}
+
+.forma-phone before:{
+	content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    bottom: 12px;
+    left: 16px;
+}
+
+.forma-phone input {
+	outline: none;
+	padding-left: 46px;
+	margin-left: 30px;
+	border-radius: 20px;
+	border-width: 1px;
+  	border-color: rgb(224, 224, 224);
+  	border-style: solid;
+  	background-color: rgb(245, 245, 245);
+  	width: 300px;
+ 	height: 40px;
+}
+
+.form-field__phone:before  {
+    background: url(images/icons/phone.png);
+}
+
+.forma .forma-button {
+	outline: none;
+	border:none;
+	background-color: rgb(233, 30, 99);
+  	box-shadow: 0px 20px 40px 0px rgba(233, 30, 99, 0.15);
+  	width: 300px;
+  	height: 45px;
+  	border-radius: 20px;
+  	margin-left: 30px;
+  	margin-top:30px;
+}
+.forma p{
+  font-size: 14px;
+  font-family: "Bliss Pro";
+  color: rgb(33, 33, 33);
+  line-height: 1.2;
+  text-align: center;
+  margin-top:29px;
+}
+
+.headerfon2{
+	position: relative;
+	text-align: center;
+	
+	
+}
+.headerfon2 span{
+	display: inline-block;
+	font-size: 36px;
+  	font-family: "Bliss Pro";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	margin-top: 165px;
+  	margin-bottom: 0px
+}
+.header-line{
+	margin:auto;
+	width: 420px;
+  	height: 4px;
+  	background: url(images/line.png);
+}
+.background2 .rowbg2{
+	display: inline-block;
+	display: inline-block;
+	margin-top:-15px;
+	font-size: 24px;
+  	font-family: "Bliss Pro";
+  	color: rgb(255, 255, 255);
+  	line-height: 1.2;
+  	text-align: left;
+  	margin-left: 40px;
+  	margin-right:-900px;
+
+}
+
+
+
+.round{
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background-color: #ff5722;
+	display: block;
+	margin-top: 75px;
+}
+
+.round1{
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background-color: #ff5722;
+	margin-top: 99px;
+	margin-left: 375px;
+	display: inline-block;
+}
+
+.round2{
+	margin-left: 488px;
+}
+
+.round3{
+	margin-left: 585px;
+}
+
+.round4{
+	margin-left:683px;
+}
+
+.round5{
+	margin-left:780px;
+}
+
+.round6{
+	margin-left:868px;
+}
+
+
+.mydirections{
+	width: 1920px;
+	height: 1543px;
+	text-align: center;
+}
+.mydirections .container{
+	width: 1170px;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0;
+}
+.mydirections-header{
+}
+.header-drc {
+	display: inline-block;
+	font-size: 36px;
+	margin:auto;
+	margin-top:49px;
+  	font-family: "Bliss Pro";
+  	color: rgb(33, 33, 33);
+  	font-weight: bold;
+  	text-transform: uppercase;
+}
+
+.header-line2{
+	margin:auto;
+	width: 354px;
+  	height: 4px;
+  	background: url(images/line2.png);
+  	background-repeat: no-repeat;
+  	margin-bottom: 87px;
+}
+
+.drc img {
+	width: 100%;
+}
+.drc {
+	position: relative;
+	/*margin-top:22px;*/
+
+}
+
+.drc {
+	margin-bottom: 22px;
+}
+
+.drc .text-drc{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-size: 24px;
+  	font-family: "Bliss Pro";
+  	color: rgb(255, 0, 0);
+  	text-transform: uppercase;
+}
+
+*/
+.gradient {
+	background: -webkit-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0.8) 100%);
+	background: -o-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0.8) 100%);
+	background: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0.8) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); 
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left:0;
+}	
+
+.mydirections .container .drc-button{
+	width: 304px;
+  	height: 49px;
+	border-style: solid;
+  	border-width: 2px;
+  	border-color: rgb(233, 30, 99);
+  	background-color: rgba(233, 30, 99, 0);
+  	border-radius: 25px;
+  	outline: none;
+  	margin-top: 65px;
+  	font-size: 18px;
+  	font-family: "Bliss Pro";
+  	color: rgb(233, 30, 99);
+  	font-weight: bold;
+  	position: relative;
+  	padding: 0;
+}
+.drc-button img {
+	position: absolute;
+	right:55px;
+	bottom: 17px;
+}
+.background-action{
+	background: url(images/background-action.png);
+	width: 1920px;
+	height: 640px;
+}
+.background-action .container-action{
+	width: 1170px;
+	max-width: 1170px;
+	height: 640px;
+	margin: 0 auto;
+	padding-top: 7.3%;
+}
+.background-action .header-action {
+	text-align: center;
+	font-size: 36px;
+  	font-family: "Bliss Pro";
+  	color: rgb(255, 0, 255);
+  	font-weight: bold;
+  	text-transform: uppercase;
+}
+.header-line3{
+	background: url(images/line3.png);
+	width: 486px;
+  	height: 4px;
+  	margin:auto;
+}
+
+
+/** Action form begin **/
+
+
+.form-row {
+	margin: 0 auto;
+	margin-top: 19px;
+	width: 642px;
+}
+
+.form-row:first-child {
+	margin-top: 50px;
+}
+
+
+.form-field {
+	float: left;
+	position: relative;
+}
+
+.form-field label {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-left: 3px;
+    font-size: 14px;
+}
+
+.form-field:before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    bottom: 12px;
+    left: 16px;
+}
+
+.form-field input,
+.form-field select {
+	font-size: 14px;
+  	color: rgb(33, 33, 33);
+  	font-weight: bold;
+  	font-family: "Bliss Pro";
+  	border: 1px solid rgb(224, 224, 224);
+  	background-color: rgb(245, 245, 245);
+	outline: none;
+  	width: 292px;
+  	height: 40px;
+  	border-radius: 25px;
+}
+
+.form-field input {
+	padding-left: 46px;
+}
+
+.form-field input::placeholder { 
+  	color: #bdbdbd;
+}
+
+.form-field select {
+	cursor: pointer;
+  	padding-left: 14px;
+}
+
+
+.form-field:first-child {
+	margin-right: 50px;
+}
+
+.form-field__name:before  {
+    background: url(images/icons/user.png);
+}
+
+.form-field__phone:before  {
+    background: url(images/icons/phone.png);
+}
+
+
+/** Action form end **/
+
+/** Teachers **/
+.teachers {
+	width: 1920px;
+	height: 670px;
+	position: relative;
+	z-index: 12;
+}
+.teachers__header {
+	margin:auto;
+  	font-size: 36px;
+  	font-family: "Bliss Pro";
+  	color: rgb(33, 33, 33);
+  	font-weight: bold;
+  	text-transform: uppercase;	
+  	text-align: center;
+}
+.headerline-4 {
+	margin:auto;
+	background: url(images/line4.png);
+  	width: 394px;
+  	height: 4px;
+}
+.orange2 {
+	width: 1920px;
+	height: 387px;
+	margin:0 auto;
+	margin-top: 80px;
+	background: url(images/orange2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.greydiv {
+	position: relative;
+	margin:auto;
+	border-style: solid;
+  	border-width: 1px;
+  	border-color: rgb(233, 30, 99);
+  	background-color: rgb(255, 255, 255);
+  	
+  	width: 960px;
+  	height: 355px;	
+}
+.greydiv {
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.greydiv img {
+	
+}
+.carousel__img {
+	position: absolute;
+	bottom:30px;
+	left:-30px;
+	width: 357px;
+	height: 357px;
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.carousel-item {
+	margin-top: 30px;
+}
+.carousel__content {
+	width: 532px;
+	height: 353px;
+	float:right;
+}
+.carousel__text {
+	height: 243px;
+
+}
+
+.header__carousel {
+	display: block;
+	margin-top: 25px;
+	font-size: 24px;
+  	font-family: "Bliss Pro";
+  	color: rgb(33, 33, 33);
+  	font-weight: bold;
+}
+.directions__caruosel {
+	display: block;
+	margin-top: 10px;
+	margin-right: 175px;
+  	font-size: 18px;
+  	font-family: "Bliss Pro";
+  	color: rgb(33, 33, 33);
+}
+.internal__text {
+	display: block;
+	margin-right: 50px;
+	margin-top: 11px;
+	font-size: 14px;
+  	font-family: "Bliss Pro";
+  	color: rgb(33, 33, 33);  	
+}
+
+#carousel__button {
+	border-style: solid;
+  	border-width: 2px;
+  	border-color: rgb(233, 30, 99);
+  	background-color: rgba(233, 30, 99, 0);
+  	width: 304px;
+  	height: 49px;
+  	border-radius: 25px;
+  	outline: none;
+  	margin-top: 15px;
+  	font-size: 18px;
+  	font-family: "Bliss Pro";
+  	color: rgb(233, 30, 99);
+  	font-weight: bold;
+  	position: relative;
+  	padding: 0;
+  	line-height: 1.2;
+}
+#carousel__button:hover{
+	background-color: rgb(233, 30, 99);
+	color: white}
+.carousel__icons {
+	display:inline-block;
+	margin-left: 70px;
+}
+.carousel__icons li {
+	display:inline-block;
+	margin-right: 20px;
+}
+.carousel-control-next {
+	right:230px;
+	bottom: 30px;
+}
+.carousel-control-prev {
+	left:230px;
+	bottom:30px;
+}
+ .carousel-inner {
+    padding-bottom: 50px;
+}
+
+
+/*SOCIAL BACKGROUND*/
+.background5 {
+	width: 1920px;
+	height: 867px;
+	background: url(images/background5.png);
+}
+
+/* TIMETable */
+.timetable-background {
+	width: 1920px;
+	height: 908px;
+}
+.timetable-background table{
+	margin:auto;
+	padding:0;
+	width: 1047px;
+	border: 1px solid rgb(224, 224, 224);
+}
+
+.timetable-background th {
+ 	font-size: 18px;
+  	font-family: "Bliss Pro";
+	border: 1px solid rgb(224, 224, 224);
+  	font-weight: bold;
+  	height: 47px;
+}
+
+.table__row2{
+	color: rgb(33, 33, 33);
+	text-align: center;
+	cursor: pointer;
+}
+.table__row2:hover{
+	background-color:#eeeeee;
+
+}
+.timetable-background  th:first-child{
+	text-align: left;
+	width:400px;
+	padding-left: 20px;
+
+}
+.table__row1 {
+	background-color: rgb(233, 30, 99);
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+.timetable__header{
+	font-size: 36px;
+  	font-family: "Bliss Pro";
+  	color: rgb(33, 33, 33);
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	line-height: 1.2;
+  	text-align: center;
+}
+.headerline-5{
+	background: url(images/line5.png);
+	width: 288px;
+  	height: 4px;
+	margin:auto;
+	margin-bottom: 86px;
+}
+
+/* BACKGROUND 6 VIDEO*/
+.myfooter{
+	position: relative;
+	height: 1294px;
+	background-color:#232935;
+	z-index: 5;
+}
+.whitediv{
+	width: 1920px;
+	height: 300px;
+	position: absolute;
+	z-index: 10;
+	background-color: white;
+}
+.background6{
+	background-position: center;
+	background:url(images/background6.png);
+	width: 1920px;
+	height: 617px;
+	padding-top:100px;
+	text-align: center;
+	position: absolute;
+	z-index: 20;
+}
+.background6__header{
+  	font-size: 36px;
+  	font-family: "Bliss Pro";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	text-align: center;
+}
+.headerline-6{
+	background:url(images/line6.png);
+  	width: 486px;
+  	height: 4px;
+  	margin:auto;
+  	margin-bottom: 50px;
+
+}
+#background6__button{
+	width: 150px;
+	height: 150px;
+	background-position: center;
+	margin:auto;
+	margin-bottom: 70px;
+	cursor:pointer;
+}
+#background6__button2{
+	width: 300px;
+  	height: 45px;
+  	font-size: 18px;
+  	font-family: "Bliss Pro";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	text-align: center;
+  	background-color: rgb(233, 30, 99);
+	border-radius: 25px;
+	outline: none;
+	border:none;
+	margin:auto;
+	cursor:pointer;
+}
+
+#background6__button2:hover{
+	border-style: solid;
+  	border-width: 2px;
+  	border-color: white;
+}
+
+
+/** MAP **/
+
+.map-bacground7 {
+	background:url(images/mapbg.png);
+	height: 509px;
+	width: 1920px;
+	position: absolute;
+	z-index: 1;
+	bottom:230px;
+}
+
+.myfooter-list{
+	width: 308px;
+	position: absolute;
+	left:375px;
+	bottom:50px;
+	font-size: 18px;
+  	font-family: "Bliss Pro";
+ 	color: rgb(255, 255, 255);
+}
+.footer-logo{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	bottom:20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 14px;
+  	font-family: "Bliss Pro";
+  	color: rgb(255, 255, 255);
+}
+
+.myfooter-list .left-list li:first-child{
+	list-style-image: url(images/footericons/footer1.png);
+}
+.myfooter-list .left-list li:nth-child(2){
+	list-style-image: url(images/footericons/footer2.png);
+}
+.myfooter-list .left-list li:nth-child(3){
+	list-style-image: url(images/footericons/footer3.png);
+}
+
+.footer-icons {
+
+	position: absolute;
+	right: 355px;
+	bottom: 156px;
+}
+.footer-icons li {
+	display:inline;
+	font-size: 18px;
+  	font-family: "Bliss Pro";
+  	color: rgb(255, 255, 255);
+  	margin-right: 20px;
+}

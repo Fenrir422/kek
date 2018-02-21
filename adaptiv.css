@@ -1,0 +1,203 @@
+
+
+.header{
+	background:url(images/fon.png);
+	margin:auto;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 782px;
+	position: relative;
+	z-index: 2;
+}
+
+.header-title{
+	margin-left: 10%;
+	margin-top: 10%;
+	font-size: 1em;
+}
+
+@media only screen and (max-width: 700px) {
+	.header-title{
+		font-size: .75em;
+	}
+
+
+}
+
+.header-title p span{
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 700px) {
+	.header{
+		width: 670px;
+	}
+	.box{
+		background-color:red;
+	}
+}
+.header-title-list ul{
+	display: inline-block;
+	list-style: none;
+	list-style-position: inside;
+	padding:0;
+
+}
+
+.header-title-list ul li{
+	display: inline-block;
+	margin-right:2em;
+	margin-top:10%;
+	margin-left:1em;
+}
+@media only screen and (max-width: 700px) {
+	.header-title-list ul li{
+		display:block;
+		margin-top: 5%;
+
+	}
+/*	background-color:#ff5722;*/
+
+}
+@media only screen and (max-width: 700px) {
+	.header-numb p{ 
+		margin-left:-50px;
+
+	}
+
+}
+.spacer{
+	display: inline-block;
+}
+.header-logo {
+	margin:auto;
+	margin-top: 10%;
+	width: 77px;
+  	height: 83px;
+}
+.orange-banner{
+	background: url(images/orange.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+  	font-size: 36px;
+  	font-size: contain;
+  	font-family: "BlissPro";
+  	color: rgb(255, 255, 255);
+	text-align: center;
+	margin:auto;
+	height: 138px;
+	width: 100%;
+	margin-top: 1em;
+}
+.orange-banner .banner-text{
+	display: inline-block;
+	width: 75%;
+	margin:auto;
+	margin-top: 25px;
+	line-height: 1;
+
+}
+
+@media only screen and (max-width: 961px) {
+	.orange-banner .banner-text span{
+		font-size: 30px;
+}
+}
+@media only screen and (max-width: 800px) {
+	.orange-banner .banner-text span{
+		font-size: 25px;
+}
+}
+.forma{
+	background: #333;
+	width: 360px;
+	height: 340px;
+	margin-top: 66px;
+	margin-left: 10%;
+}
+
+.pagelist  {
+	background:url(images/fon2.png);
+	margin-top: -100px;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 966px;
+	z-index: 1;
+	padding-top:160px;
+
+}
+.pagelist-header{
+	margin:auto;
+	text-align: center;
+	font-size: 36px;
+  	font-family: "BlissPro";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	text-transform: uppercase;
+}
+.headerline{
+	text-align: center;
+	margin-top: -17px;
+}
+
+.samlist{
+	margin-left: 3%;
+	margin-top: 100px;
+	list-style: url(images/icons/list.png);
+	font-size: 24px;
+  	font-family: "BlissPro";
+  	color: rgb(255, 255, 255);
+  	text-align: left;
+}
+
+.samlist li{
+margin-bottom:60px;
+margin-right:-170px;
+}
+.samlist li:nth-child(2){
+	margin-left:16%;
+}
+.samlist li:nth-child(3){
+	margin-left:29%;
+}
+.samlist li:nth-child(4){
+	margin-left:42%
+}
+.samlist li:nth-child(5){
+	margin-left:55%;
+}
+.samlist li:nth-child(6){
+	margin-left:68%;
+}
+
+@media only screen and (max-width: 1100px) {
+	.samlist{
+		font-size: 22px;
+}
+}
+@media only screen and (max-width: 900px) {
+	.samlist{
+		font-size: 17px;
+}
+}
+
+
+.setkaphoto{
+
+}
+
+.setkaphoto img{
+	width: 100%;
+}
+
+
+.kolonka1{
+	margin-top: 175px;
+}
+.kolonka1 img{
+	margin-right: 22px;
+	margin-bottom: 22px;
+}
